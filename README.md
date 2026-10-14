@@ -1,4 +1,4 @@
-# 📍 Weather Forecast Model
+# Weather Forecast Model
 
 A Python-based weather forecasting project that predicts future weather conditions for **Kolkata, India** using Machine Learning.
 
@@ -6,20 +6,20 @@ This project uses historical weather data (2017–2022) and applies Random Fores
 
 ---
 
-## 📖 Overview
+## Overview
 
 The model learns from historical weather patterns and predicts:
 
-- 🌡 Minimum Temperature
-- 🌡 Maximum Temperature
-- 💧 Humidity
-- 🌧 Rainfall
+-  Minimum Temperature
+-  Maximum Temperature
+-  Humidity
+-  Rainfall
 
 The forecast is generated iteratively using trained regression models.
 
 ---
 
-## ✨ Features
+##  Features
 
 - Loads and cleans historical CSV weather data
 - Aggregates daily weather metrics
@@ -31,7 +31,7 @@ The forecast is generated iteratively using trained regression models.
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```bash
 weather-forecast/
@@ -44,16 +44,16 @@ weather-forecast/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/bsjana007/weather-forecast.git
 cd weather-forecast
 ```
 
-### 2️⃣ Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -78,9 +78,9 @@ The program will:
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
-### 1️⃣ Data Loading & Cleaning
+###  Data Loading & Cleaning
 
 - Reads CSV file
 
@@ -90,7 +90,7 @@ The program will:
 
 - Aggregates data by date
 
-### 2️⃣ Feature Engineering
+###  Feature Engineering
 
 - Encodes weather conditions
 
@@ -98,7 +98,7 @@ The program will:
 
 - Scales input data
 
-### 3️⃣ Model Training
+### Model Training
 
 Four separate Random Forest Regressors are trained to predict:
 
@@ -110,7 +110,7 @@ Four separate Random Forest Regressors are trained to predict:
 
 - Rainfall
 
-### 4️⃣ Forecast Generation
+###  Forecast Generation
 
 The model:
 
@@ -124,7 +124,7 @@ The model:
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 ```bash
 FINAL 5-DAY WEATHER FORECAST
@@ -141,6 +141,6 @@ Date        Min Temp (°C)  Max Temp (°C)  Humidity (%)  Rain (mm)
 
 ---
 
-## 🙌 Author
+##  Author
 
 ### Bhabani Sankar Jana
